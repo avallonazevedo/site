@@ -1,25 +1,26 @@
-// eslint-disable-next-line no-unused-vars
-const webpack = require('webpack');
-const path = require('path');
+import * as path from 'path';
+import * as webpack from 'webpack';
+
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin');
+const CleanWebpackPlugin = 'clean-webpack-plugin';
+const HtmlWebpackPartialsPlugin = 'html-webpack-partials-plugin';
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
-const config = {
+const config: webpack.Configuration = {
   entry: './src/index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'app.bundle.js',
     publicPath: '',
   },
+  devtool: 'source-map',
   module: {
     rules: [
       {
         test: /\.ts$/,
-        use: 'ts-loader',
-        exclude: /node_modules/
+        exclude: /node_modules/,
+        use: 'babel-loader',
       },
       {
         test: /\.js$/,
@@ -55,13 +56,7 @@ const config = {
     ],
   },
   resolve: {
-    extensions: [ '.tsx', '.ts', '.js' ],
-  },
-  devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    port: 9000,
-    hot: true,
-    compress: true,
+    extensions: ['.tsx', '.ts', '.js'],
   },
   plugins: [
     // new FaviconsWebpackPlugin('./src/static/images/favicon.png'),
@@ -71,7 +66,7 @@ const config = {
       minify: false,
     }),
     new MiniCssExtractPlugin(),
-    new CleanWebpackPlugin(),
+    // new CleanWebpackPlugin(),
     new webpack.HotModuleReplacementPlugin({}),
   ],
 };
