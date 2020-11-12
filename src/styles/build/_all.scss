@@ -66,7 +66,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 0.5em;
+  padding: 1em;
 }
 
 section {
@@ -76,7 +76,7 @@ section {
 }
 
 .logo {
-  width: 60px;
+  width: 2.5em;
   svg {
     max-width: 100%;
   }
@@ -135,10 +135,12 @@ section {
 
 .intro-content {
   width: 90%;
-  max-width: 1280px;
+  max-width: 1020px;
   h1 {
     font-weight: $thin;
     margin: 0;
+    font-size: 1.6em;
+    line-height: 1.3;
   }
 }
 
