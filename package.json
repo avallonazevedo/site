@@ -8,8 +8,9 @@
   "scripts": {
     "clean": "rm dist/bundle.js",
     "dev": "cross-env webpack serve --mode development",
-    "build": "cross-env TS_NODE_PROJECT=\"tsconfig-for-webpack-config.json\" webpack",
-    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+    "build": "cross-env webpack --mode production",
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "start": "npx serve ./dist"
   },
   "dependencies": {
     "aos": "^3.0.0-beta.6",

@@ -4,16 +4,7 @@
     <list default="true" id="8dc6c62d-dbd6-42bb-bfb2-57d2d306dd2e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/abstracts/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/build/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/build/_all.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fonts/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/utils/_utils.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/utils/_utils.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605140929237</updated>
-      <workItem from="1605140930329" duration="9221000" />
+      <workItem from="1605140930329" duration="10458000" />
     </task>
     <task id="LOCAL-00001" summary="chore: first commit">
       <created>1605141696862</created>
@@ -104,9 +95,9 @@
       <screen x="1680" y="23" width="1920" height="1004" />
     </state>
     <state x="2149" y="164" key="SettingsEditor/1680.23.1920.1004/0.23.1680.1027@1680.23.1920.1004" timestamp="1605142936719" />
-    <state x="2305" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1605148685276">
+    <state x="2305" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1605150494168">
       <screen x="1680" y="23" width="1920" height="1004" />
     </state>
-    <state x="2305" y="245" width="670" height="676" key="search.everywhere.popup/1680.23.1920.1004/0.23.1680.1027@1680.23.1920.1004" timestamp="1605148685276" />
+    <state x="2305" y="245" width="670" height="676" key="search.everywhere.popup/1680.23.1920.1004/0.23.1680.1027@1680.23.1920.1004" timestamp="1605150494168" />
   </component>
 </project>

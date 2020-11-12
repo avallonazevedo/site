@@ -59,10 +59,10 @@ const config: webpack.Configuration = {
     extensions: ['.tsx', '.ts', '.js'],
   },
   plugins: [
-    // new FaviconsWebpackPlugin('./src/static/images/favicon.png'),
+    new FaviconsWebpackPlugin('./src/static/images/favicon.png'),
     new HtmlWebpackPlugin({
       template: path.join(__dirname, 'public/index.html'),
-      title: 'Avallon Azevedo | Developer',
+      title: 'Avallon Azevedo | Passionate Front-end Developer',
       minify: false,
     }),
     new MiniCssExtractPlugin(),
