@@ -1,0 +1,20 @@
+// Reset
+
+*, *::before, *::after {
+  box-sizing: border-box !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+html, body, main {
+  min-height: 100vh;
+  overflow: auto;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.2;
+  font-size: calc(16px + (23 - 16) * (100vw - 640px) / (1439 - 640));
+}
